@@ -1,12 +1,125 @@
-header {
-position: absolute;
-width: 1920px;
-height: 700px;
-left: 0px;
-top: -7px;
-
-background: #EEEFF1;
+*{
+  margin: 0;
+  padding: 0;
 }
+body {
+  color: black;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  margin: 0 auto; /*"элементы по центру контейнера"*/
+  width: 100%;
+}
+.header {
+  height: 700px;
+  background: #EEEFF1;
+}
+.up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.logo {
+  margin-right: 398px;
+  font-family: 'Revalia';
+  font-size: 48px;
+  color: #34547A;
+}
+nav {
+  display: block;
+}
+ul,li {
+  display: block;
+}
+.items {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.items a {
+  text-decoration: none;
+  color: black;
+
+}
+.item {
+  margin-right: 20px;
+  display: flex;
+}
+.down {
+  display: flex;
+  margin-top: 162px;
+  justify-content: center;
+  align-items: center;
+}
+.picture {
+  margin-right: 131px;
+}
+.title-big {
+  font-weight: 580;
+  font-size: 48px;
+}
+.text {
+  margin-top: 60px;
+}
+.btn {
+  margin-top: 60px;
+  color: white;
+width: 225px;
+height: 65px;
+text-transform: uppercase;
+background: #34547A;
+}
+.btn:hover {
+  background: #8CE8DD;
+    }
+
+/*----------- header end ---------------------*/
+
+.about {
+  height: 366px;
+}
+.title-min{
+  font-weight: 500;
+font-size: 32px;
+text-align: center;
+margin-top: 119px;
+}
+.text-about {
+  text-align: center;
+}
+ .animat {
+   display: flex;
+   justify-content: center;
+}
+.sguare {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 50px;  background-color: #34547A;
+}
+ .sguare {
+  -webkit-animation: shake .7s linear alternate infinite;
+  animation: shake .7s linear alternate infinite;
+}
+
+@-webkit-keyfames shake {
+  100%
+{
+  -webkit-transform: translateX(-30px);
+}
+}
+@keyframes shake {
+  100% {
+    transform: translateX(-30px);
+  }
+}
+/*
+
 .hell1 {
   position: absolute;
 width: 357px;
@@ -162,11 +275,8 @@ top: 95px;
 }
 .mey {
   color: white;
-  position: absolute;s
 width: 225px;
 height: 65px;
-left: 975px;
-top: 482px;
 
 background: #34547A;
 }
@@ -189,15 +299,6 @@ background: #34547A;
   -webkit-animation: shake .7s linear alternate infinite;
   animation: shake .7s linear alternate infinite;
 }
-@-webkit-keyfames shake {
-  100%
-{
-  -webkit-transform: translateX(-30px);
-}
-}
-@keyframes shake {
-  100% {
-    transform: translateX(-30px);
-  }
-}
+\}
 @media (max-width: 1290px) {}
+*/
