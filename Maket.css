@@ -153,9 +153,16 @@ height: 16px;
 left: 896px;
 top: 95px;
 }
+.fixed
+{
+  position: fixed;
+   right: 50px;
+  top: 50px;
+   background-color:#f00
+}
 .mey {
   color: white;
-  position: absolute;
+  position: absolute;s
 width: 225px;
 height: 65px;
 left: 975px;
