@@ -81,7 +81,7 @@ background: #34547A;
 /*----------- header end ---------------------*/
 
 .about {
-  height: 366px;
+  height: 275px;
 }
 .title-min{
   font-weight: 500;
@@ -92,213 +92,90 @@ margin-top: 119px;
 .text-about {
   text-align: center;
 }
- .animat {
-   display: flex;
-   justify-content: center;
+.all {
+  height: 250px;
+  background: #34547A;
 }
-.sguare {
+.project {
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  margin-right: 50px;  background-color: #34547A;
+  padding-right: 49px;
+  margin-left: 27px;
+margin-top: 90px;
 }
- .sguare {
-  -webkit-animation: shake .7s linear alternate infinite;
-  animation: shake .7s linear alternate infinite;
+.cent {
+  height: 600px;
 }
-
-@-webkit-keyfames shake {
-  100%
-{
-  -webkit-transform: translateX(-30px);
-}
-}
-@keyframes shake {
-  100% {
-    transform: translateX(-30px);
-  }
-}
-/*
-
-.hell1 {
-  position: absolute;
-width: 357px;
-height: 233.7px;
-left: 487px;
-top: 271px;
-}
-.hell2 {
-  position: absolute;
-  width: 141px;
-  height: 50px;
-  left: 405px;
-  top: 1159px;
-  margin-left: 50px;
-}
-.hell3 {
-  position: absolute;
-width: 1150px;
-height: 450px;
-left: 386px;
-top: 1411px;
-}
-h1 {
-  position: absolute;
-width: 96px;
-height: 60px;
-left: 402px;
-top: 50px;
-
-font-family: 'Revalia' ;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 60px;
-text-align: center;
-
-color: #34547A;
-}
-h2 {
-  position: absolute;
-width: 541px;
-height: 45px;
-left: 974px;
-top: 250px;
-
-font-family: 'Roboto' ;
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 79px;
-}
-h3 {
-  position: absolute;
-width: 403px;
-height: 30px;
-left: 758px;
-top: 812px;
-
+.title-avtor {
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 32px;
-line-height: 37px;
-text-align: center;
-color: #000000;
 }
-h4 {
-  position: absolute;
-width: 403px;
-height: 30px;
-left: 758px;
-top: 2000px;
-font-family: 'Roboto';
-font-style: normal;
+.left {
+  margin-left: 300px;
+  margin-top: 102px;
+}
+.statik {
+
+}
+.photo {
+  margin-left: 750px;
+}
+/*--------about and ------------*/
+
+.letter {
+  margin-top: 100px;
+}
+.title-how{
 font-weight: 500;
 font-size: 32px;
-line-height: 37px;
 text-align: center;
-color: #000000;
 }
-p {
-  position: absolute;
-width: 540px;
-height: 67px;
-left: 975px;
-top: 355px;
-
-font-family: 'Roboto' ;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
+.text-how {
+  text-align: center;
 }
-p2 {
-  position: absolute;
-width: 540px;
-height: 67px;
-left: 690px;
-top: 892px;
+.colorhow {
+height: 1000px;
+background: #EEEFF1
+}
+.photo-how {
+  margin-left: 100px;
+}
+.work {
+  padding: 20px;
+  margin-left: 80px;
+}
+.microsoft {
+  padding: 20px;
+  margin-left: 250px;
+}
+/*--------процесс and ------------*/
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
+.contact {
+  height: 300px;
+  background: #EEEFF1;
+}
+.title-cont {
+  font-weight: 500;
+font-size: 32px;
 text-align: center;
-color: #727272;
+margin-top: 119px;
 }
-p3 {
-  position: absolute;
-width: 1920px;
-height: 250px;
-left: 0px;
-top: 1059px;
-background: #34547A;
-
+.text-cont {
+  text-align: center;
 }
-p4 {
-  position: absolute;
-width: 540px;
-height: 67px;
-left: 690px;
-top: 2142px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-
-color: #727272;
-
+.name {
+margin-left: 300px;
 }
-li {
-  display: inline;
-  margin-left: 5%;
-  width: 611px;
-  height: 16px;
+.email {
+  margin-left: 300px;
 }
-nav {
-  position: absolute;
-width: 611px;
-height: 16px;
-left: 896px;
-top: 95px;
+.message {
+  margin-left: 300px;
 }
-.fixed
-{
-  position: fixed;
-   right: 50px;
-  top: 50px;
-   background-color:#f00
-}
-.mey {
+.but {
   color: white;
 width: 225px;
 height: 65px;
-
+text-transform: uppercase;
 background: #34547A;
 }
-.mey:hover {
-  background: #8CE8DD;
-    }
-
-.hell {
-  padding: 0;
-  list-style: none;
-  margin-bottom: 40px;
-}
-.aaa  {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  margin-right: 50px;  background-color: white;
-}
- .aaa {
-  -webkit-animation: shake .7s linear alternate infinite;
-  animation: shake .7s linear alternate infinite;
-}
-\}
-@media (max-width: 1290px) {}
-*/
