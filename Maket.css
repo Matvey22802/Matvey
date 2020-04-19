@@ -75,7 +75,7 @@ text-transform: uppercase;
 background: #34547A;
 }
 .btn:hover {
-  background: #8CE8DD;
+  background: #141E67;
     }
 
 /*----------- header end ---------------------*/
@@ -92,6 +92,7 @@ margin-top: 119px;
 .text-about {
   text-align: center;
 }
+/*--------about end ------------*/
 .all {
   height: 250px;
   background: #34547A;
@@ -102,8 +103,12 @@ margin-top: 119px;
   margin-left: 27px;
 margin-top: 90px;
 }
-.cent {
+/*--------blue end ------------*/
+.avtor {
   height: 600px;
+}
+.cent {
+  display: flex;
 }
 .title-avtor {
 font-family: 'Roboto';
@@ -114,14 +119,20 @@ font-size: 32px;
   margin-left: 300px;
   margin-top: 102px;
 }
-.statik {
-
+.car {
+  padding-top: 80px;
 }
 .photo {
-  margin-left: 750px;
+   margin-top: 102px;
 }
-/*--------about and ------------*/
+/*--------avtor end ------------*/
 
+.all-how {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .letter {
   margin-top: 100px;
 }
@@ -134,21 +145,26 @@ text-align: center;
   text-align: center;
 }
 .colorhow {
-height: 1000px;
+height: 850px;
 background: #EEEFF1
 }
 .photo-how {
-  margin-left: 100px;
+  margin-top: 50px;
+}
+/*--------how end ------------*/
+.workand{
+  margin-top: 100px;
 }
 .work {
-  padding: 20px;
-  margin-left: 80px;
+  margin-left: 95px;
 }
 .microsoft {
-  padding: 20px;
-  margin-left: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-/*--------процесс and ------------*/
+/*--------work end ------------*/
 
 .contact {
   height: 300px;
@@ -163,19 +179,14 @@ margin-top: 119px;
 .text-cont {
   text-align: center;
 }
-.name {
-margin-left: 300px;
-}
-.email {
-  margin-left: 300px;
-}
-.message {
-  margin-left: 300px;
-}
 .but {
-  color: white;
+color: white;
 width: 225px;
 height: 65px;
 text-transform: uppercase;
 background: #34547A;
 }
+.but:hover {
+  background: #141E67;
+  }
+/*--------contact end ------------*/
